@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" Gupta's Shop is Ecommerse Website">
+    <meta name="author" content="Vaibhav Ecommerse Website">
+    <title>LogIn</title>
+    <style>
+        /* Below line is used for online Google font */
+        @import url(http://fonts.googleapis.com/css?family=Raleway);
+
+        body {
+
+            font-family: 'Markazi Text', serif;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        h2 {
+
+            padding: 30px 35px;
+            margin: -10px -50px;
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+        }
+
+        hr {
+            margin: 10px -50px;
+            border: 0;
+            border-top: 1px solid #ccc;
+            margin-bottom: 40px;
+        }
+
+        div.container {
+            width: 900px;
+            height: 610px;
+            margin: 35px auto;
+            display: flex;
+            justify-content: center;
+            font-family: 'Markazi Text', serif;
+        }
+
+        div.main {
+            width: 300px;
+            padding: 10px 50px 25px;
+            border: 2px solid gray;
+            border-radius: 10px;
+            font-family: 'Markazi Text', serif;
+            float: left;
+            margin-top: 50px;
+        }
+
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+            height: 40px;
+            padding: 5px;
+            margin-bottom: 25px;
+            margin-top: 5px;
+            border: 2px solid #ccc;
+            color: #4f4f4f;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+        label {
+            color: #464646;
+            text-shadow: 0 1px 0 #fff;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        center {
+            font-size: 32px;
+        }
+
+        .note {
+            color: red;
+        }
+
+        .valid {
+            color: green;
+        }
+
+        .back {
+            text-decoration: none;
+            border: 1px solid rgb(0, 143, 255);
+            background-color: rgb(0, 214, 255);
+            padding: 3px 20px;
+            border-radius: 2px;
+            color: black;
+        }
+
+        input[type=button] {
+            font-size: 16px;
+            background: linear-gradient(#ffbc00 5%, #ffdd7f 100%);
+            border: 1px solid #e5a900;
+            color: #4E4D4B;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 5px;
+            padding: 10px 0;
+            outline: none;
+        }
+
+        input[type=button]:hover {
+            background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
+        }
+     
+    </style>
+    <link rel="stylesheet" href="Ecommerse.css">
+   
+</head>
+
+<body>
+    <header>
+
+        <nav class="nav">
+            <div>
+                <ul class="ul1">
+                    <li> <a href="#" class="lia1">
+                            <img class="i2" src="logo.jpg" alt="logo image" height="90" width="90">
+                        </a>
+                    </li>            
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="container">
+        <div class="main">
+            <h2>Login </h2>
+            <form id="form_id" method="post" name="myform">
+                <label>User Name :</label>
+                <input type="text" name="username" id="username" />
+                <label>Password :</label>
+                <input type="password" name="password" id="password" />
+                <input type="button" value="Login" id="submit" onclick="validate()" /><br><br>
+                <a href="home.html">
+                    <h3>Skip login</h3>
+                </a>
+                <br>
+                <span>
+                    <p>username - Vaibhav Gupta<br>password - pass@123<br>or htmlcssjs and password111</p>
+                </span>
+            </form>
+
+        </div>
+    </div>
+
+   <script src="ecom.js"></script>
+</body>
+
+</html>
